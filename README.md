@@ -49,7 +49,7 @@ if ($result instanceof ResultInterface) {
 }
 ```
 
-Read more about [creating requests](/docs/creating-a-request.md) and [querying](/docs/querying.md).
+Read more about [creating requests][client-creating-a-request] and [querying][client-querying].
 
 ## Understanding and Analysing Results
 
