@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=7.2.0",
-        "webignition/sfs-client": ">=0.1,<1",
+        "webignition/sfs-client": ">=0.2,<1",
         "webignition/sfs-result-analyser": ">=0.1,<1"
     },
     "minimum-stability":"stable"
