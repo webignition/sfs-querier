@@ -1,0 +1,540 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "a7539ab1938ddd7275af7a8e3e700a56",
+    "packages": [
+        {
+            "name": "guzzlehttp/guzzle",
+            "version": "6.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "407b0cb880ace85c9b63c5f9551db498cb2d50ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/407b0cb880ace85c9b63c5f9551db498cb2d50ba",
+                "reference": "407b0cb880ace85c9b63c5f9551db498cb2d50ba",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/promises": "^1.0",
+                "guzzlehttp/psr7": "^1.4",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0",
+                "psr/log": "^1.0"
+            },
+            "suggest": {
+                "psr/log": "Required for using the Log middleware"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "6.3-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/functions_include.php"
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle is a PHP HTTP client library",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "rest",
+                "web service"
+            ],
+            "time": "2018-04-22T15:46:56+00:00"
+        },
+        {
+            "name": "guzzlehttp/promises",
+            "version": "v1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/promises.git",
+                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Promise\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle promises library",
+            "keywords": [
+                "promise"
+            ],
+            "time": "2016-12-20T10:07:11+00:00"
+        },
+        {
+            "name": "guzzlehttp/psr7",
+            "version": "1.5.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/psr7.git",
+                "reference": "9f83dded91781a01c63574e387eaa769be769115"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/9f83dded91781a01c63574e387eaa769be769115",
+                "reference": "9f83dded91781a01c63574e387eaa769be769115",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "psr/http-message": "~1.0",
+                "ralouphie/getallheaders": "^2.0.5"
+            },
+            "provide": {
+                "psr/http-message-implementation": "1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.8"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Psr7\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Tobias Schultze",
+                    "homepage": "https://github.com/Tobion"
+                }
+            ],
+            "description": "PSR-7 message implementation that also provides common utility methods",
+            "keywords": [
+                "http",
+                "message",
+                "psr-7",
+                "request",
+                "response",
+                "stream",
+                "uri",
+                "url"
+            ],
+            "time": "2018-12-04T20:46:45+00:00"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2016-08-06T14:39:51+00:00"
+        },
+        {
+            "name": "ralouphie/getallheaders",
+            "version": "2.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ralouphie/getallheaders.git",
+                "reference": "5601c8a83fbba7ef674a7369456d12f1e0d0eafa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/5601c8a83fbba7ef674a7369456d12f1e0d0eafa",
+                "reference": "5601c8a83fbba7ef674a7369456d12f1e0d0eafa",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7.0",
+                "satooshi/php-coveralls": ">=1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/getallheaders.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ralph Khattar",
+                    "email": "ralph.khattar@gmail.com"
+                }
+            ],
+            "description": "A polyfill for getallheaders.",
+            "time": "2016-02-11T07:05:27+00:00"
+        },
+        {
+            "name": "webignition/sfs-client",
+            "version": "0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webignition/sfs-client.git",
+                "reference": "d3c8071ecc8c0d897cbc1dc7c88914c37804a7f5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webignition/sfs-client/zipball/d3c8071ecc8c0d897cbc1dc7c88914c37804a7f5",
+                "reference": "d3c8071ecc8c0d897cbc1dc7c88914c37804a7f5",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "guzzlehttp/guzzle": "^6.3",
+                "php": ">=7.2.0",
+                "webignition/sfs-result-factory": ">=0.1,<1"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^0.11.5",
+                "phpunit/phpunit": "^8.1",
+                "squizlabs/php_codesniffer": "^3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "webignition\\SfsClient\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jon Cram",
+                    "email": "webignition@gmail.com"
+                }
+            ],
+            "description": "HTTP client for querying api.stopforumspam.com",
+            "homepage": "https://github.com/webignition/sfs-client",
+            "keywords": [
+                "client",
+                "forum",
+                "spam",
+                "stopforumspam.com"
+            ],
+            "time": "2019-04-12T12:00:17+00:00"
+        },
+        {
+            "name": "webignition/sfs-result-analyser",
+            "version": "0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webignition/sfs-result-analyser.git",
+                "reference": "0ae1ec48cdd62626e09f45535e2f698ce2aa4ec1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webignition/sfs-result-analyser/zipball/0ae1ec48cdd62626e09f45535e2f698ce2aa4ec1",
+                "reference": "0ae1ec48cdd62626e09f45535e2f698ce2aa4ec1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0",
+                "webignition/sfs-result-interfaces": ">=0.5,<1"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^0.11.5",
+                "phpunit/phpunit": "^8.1",
+                "squizlabs/php_codesniffer": "^3",
+                "webignition/sfs-result-factory": ">=0.1,<1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "webignition\\SfsResultAnalyser\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jon Cram",
+                    "email": "webignition@gmail.com"
+                }
+            ],
+            "description": "Analyses results from api.stopforumspam.com, helps you figure out what to do",
+            "homepage": "https://github.com/webignition/sfs-result-analyser",
+            "keywords": [
+                "analyser",
+                "analyzer",
+                "result",
+                "stopforumspam.com"
+            ],
+            "time": "2019-04-12T12:01:52+00:00"
+        },
+        {
+            "name": "webignition/sfs-result-factory",
+            "version": "0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webignition/sfs-result-factory.git",
+                "reference": "3b2e7ee0d0b55763a1dba01665c2991c19cf94fb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webignition/sfs-result-factory/zipball/3b2e7ee0d0b55763a1dba01665c2991c19cf94fb",
+                "reference": "3b2e7ee0d0b55763a1dba01665c2991c19cf94fb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0",
+                "webignition/sfs-result-models": ">=0.4,<1"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^0.11.5",
+                "phpunit/phpunit": "^8.1",
+                "squizlabs/php_codesniffer": "^3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "webignition\\SfsResultFactory\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jon Cram",
+                    "email": "webignition@gmail.com"
+                }
+            ],
+            "description": "Factory to create result objects from api.stopforumspam.com responses",
+            "homepage": "https://github.com/webignition/sfs-result-factory",
+            "keywords": [
+                "factory",
+                "forum",
+                "result",
+                "spam",
+                "stopforumspam.com"
+            ],
+            "time": "2019-04-11T14:08:58+00:00"
+        },
+        {
+            "name": "webignition/sfs-result-interfaces",
+            "version": "0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webignition/sfs-result-interfaces.git",
+                "reference": "9f8fddc70a9af1c2d307609a1d876d5fa2162d73"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webignition/sfs-result-interfaces/zipball/9f8fddc70a9af1c2d307609a1d876d5fa2162d73",
+                "reference": "9f8fddc70a9af1c2d307609a1d876d5fa2162d73",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "^3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "webignition\\SfsResultInterfaces\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jon Cram",
+                    "email": "webignition@gmail.com"
+                }
+            ],
+            "description": "PHP interfaces for models for results from querying api.stopforumspam.com",
+            "homepage": "https://github.com/webignition/sfs-result-interfaces",
+            "keywords": [
+                "forum",
+                "spam",
+                "stopforumspam.com"
+            ],
+            "time": "2019-04-11T13:15:32+00:00"
+        },
+        {
+            "name": "webignition/sfs-result-models",
+            "version": "0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webignition/sfs-result-models.git",
+                "reference": "08f4bb579c17015d4066dc627674bf6db9f0d9e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webignition/sfs-result-models/zipball/08f4bb579c17015d4066dc627674bf6db9f0d9e6",
+                "reference": "08f4bb579c17015d4066dc627674bf6db9f0d9e6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0",
+                "webignition/sfs-result-interfaces": ">=0.5,<1"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.2",
+                "phpstan/phpstan": "^0.11.5",
+                "phpstan/phpstan-mockery": "^0.11.0",
+                "phpunit/phpunit": "^8.1",
+                "squizlabs/php_codesniffer": "^3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "webignition\\SfsResultModels\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jon Cram",
+                    "email": "webignition@gmail.com"
+                }
+            ],
+            "description": "PHP models for results from querying api.stopforumspam.com",
+            "homepage": "https://github.com/webignition/sfs-result-models",
+            "keywords": [
+                "forum",
+                "spam",
+                "stopforumspam.com"
+            ],
+            "time": "2019-04-11T13:48:21+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.2.0"
+    },
+    "platform-dev": []
+}
