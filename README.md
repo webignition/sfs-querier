@@ -72,14 +72,3 @@ $analyser->isUntrustworthy($result));
 // Return a float between 0 (do not trust) and 1 (probably can be trusted)
 $trustworthiness = $analyser->calculateTrustworthiness($result);
 ```
-
-## See Also
-Use [webignition/sfs-querier](https://github.com/webignition/sfs-querier) for a package that
-contains [webignition/sfs-result-analyser](https://github.com/webignition/sfs-result-analyser),
-[webignition/sfs-client](https://github.com/webignition/sfs-client) and provides detailed
-usage instructions.
-
-[sfs-usage]: https://www.stopforumspam.com/usage
-[client-creating-a-client]: https://github.com/webignition/sfs-client/blob/master/docs/creating-a-client.md
-[client-creating-a-request]: https://github.com/webignition/sfs-client/blob/master/docs/creating-a-request.md
-[client-querying]: https://github.com/webignition/sfs-client/blob/master/docs/querying.md
