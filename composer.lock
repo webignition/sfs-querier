@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a7539ab1938ddd7275af7a8e3e700a56",
+    "content-hash": "79de0c88ed5da97b8cfe55e9f4b319d1",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -281,16 +281,16 @@
         },
         {
             "name": "webignition/sfs-client",
-            "version": "0.1",
+            "version": "0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webignition/sfs-client.git",
-                "reference": "d3c8071ecc8c0d897cbc1dc7c88914c37804a7f5"
+                "reference": "a2d25019b1dee01214e797bfd69d70d9e0c109d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webignition/sfs-client/zipball/d3c8071ecc8c0d897cbc1dc7c88914c37804a7f5",
-                "reference": "d3c8071ecc8c0d897cbc1dc7c88914c37804a7f5",
+                "url": "https://api.github.com/repos/webignition/sfs-client/zipball/a2d25019b1dee01214e797bfd69d70d9e0c109d5",
+                "reference": "a2d25019b1dee01214e797bfd69d70d9e0c109d5",
                 "shasum": ""
             },
             "require": {
@@ -298,6 +298,7 @@
                 "ext-mbstring": "*",
                 "guzzlehttp/guzzle": "^6.3",
                 "php": ">=7.2.0",
+                "psr/http-message": "^1.0",
                 "webignition/sfs-result-factory": ">=0.1,<1"
             },
             "require-dev": {
@@ -329,7 +330,7 @@
                 "spam",
                 "stopforumspam.com"
             ],
-            "time": "2019-04-12T12:00:17+00:00"
+            "time": "2019-04-12T15:22:18+00:00"
         },
         {
             "name": "webignition/sfs-result-analyser",
